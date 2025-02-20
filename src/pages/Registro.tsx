@@ -1,10 +1,16 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 
 function Registro() {
-    return(
-        <div>
-            Aqui é a Pagina de Registro!
-        </div>
+    return (
+        <>
+            <Header />
+            <div className="container">
+                <h1>Pagina de Registro</h1>
+            </div>
+            <Footer />
+        </>
     )
 }
 
