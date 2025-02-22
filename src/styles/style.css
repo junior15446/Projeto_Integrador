@@ -25,18 +25,23 @@
 
 .logo-header {
     flex: 1;
-    border: solid 1px black;
-    margin-right: 25px;
-    text-align: center;
-    height: 45px;
+    padding-left: 1rem;
+}
+
+.logo-img {
+    width: 64px;
+    height: auto;
+    margin-top: 4px;
 }
 
 /* Menu */
 .cotainer-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     align-items: center;
-    width: 500px;
+    width: 100%;
+    gap: 40px;
+    padding-right: 2rem;
 }
 
 a {
@@ -54,6 +59,7 @@ a:hover {
 .container-footer {
     position: fixed;
     bottom: 0;
+    color: #D9ED92;
 }
 
 /* Paginas */
