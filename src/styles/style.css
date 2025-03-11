@@ -72,11 +72,43 @@ a:hover {
 }
 
 .botao-registro {
-    color: #184E77;
+    color: #fff;
     margin-top: 20px;
 }
 
 .botao-registro:hover {
     color: #34A0A4;
     transition: 1s;
+}
+
+.div-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authentication {
+    background-color: #1E6091;
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 4rem;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #fff;
+}
+
+.authentication>input {
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+}
+
+.authentication>button {
+    border-radius: 7px;
+    height: 1.5rem;
+    width: 4rem;
+    margin-bottom: 11.5px;
 }
