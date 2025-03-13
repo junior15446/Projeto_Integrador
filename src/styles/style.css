@@ -34,6 +34,24 @@
     margin-top: 4px;
 }
 
+body {
+    background-image: url(/src/assets/home.png);
+    background-position: center;
+    background-size:cover; 
+}
+
+.boas-vindas {
+    padding: 20px;
+    background-color: #F7F7F7;
+    opacity: 55%;
+    height: 120px;
+    width: 550px;
+    align-self: center;
+    border-radius: 50px;    
+    
+}
+
+
 /* Menu */
 .cotainer-menu {
     display: flex;
@@ -69,6 +87,8 @@ a:hover {
     text-align: center;
     height: 83vh;
     flex-direction: column;
+    color: black;
+    
 }
 
 .botao-registro {
