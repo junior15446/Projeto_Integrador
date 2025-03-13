@@ -12,6 +12,7 @@ function Home() {
                     Denunciar agora é um ato de cuidado e responsabilidade.
                     Não espere! Denuncie já e faça a diferença!</div>
             </div>
+            
             <Footer />
         </>
     )

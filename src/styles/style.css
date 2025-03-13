@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Calistoga&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Brush+Script&family=Raleway:ital,wght@0,100..900;1,100..900&family=Road+Rage&family=Sedan:ital@0;1&display=swap');
+
+
 /* RESETS */
 * {
     margin: 0;
@@ -36,22 +39,24 @@
 
 body {
     background-image: url(/src/assets/home.png);
-    background-position: center;
-    background-size:cover; 
+    background-position: center 99%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .boas-vindas {
     padding: 20px;
     background-color: #F7F7F7;
-    opacity: 55%;
-    height: 120px;
-    width: 550px;
-    align-self: center;
-    border-radius: 50px;    
-    
+    opacity: 75%;
+    height: 100px;
+    width: 540px;
+    align-self:center;
+    border-radius: 50px;
+    position: relative;
+    top: 160px;
+    font-weight: bold
 }
-
-
 /* Menu */
 .cotainer-menu {
     display: flex;
