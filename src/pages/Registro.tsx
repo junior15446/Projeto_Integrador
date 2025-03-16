@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
+import RegistrationForm from "../components/RegistrationForm"
 
 
 function Registro() {
@@ -7,7 +8,7 @@ function Registro() {
         <>
             <Header />
             <div className="container">
-                <h1>Pagina de Registro</h1>
+                <RegistrationForm />
             </div>
             <Footer />
         </>
