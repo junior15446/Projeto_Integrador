@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function RegistrationForm() {
   return (
     <div className="registro">
@@ -12,7 +14,9 @@ function RegistrationForm() {
       <label htmlFor="">Confirme sua senha</label>
       <input type="password" name="confirSenha" id="confirSenha" placeholder="Confirme a senha" />
 
-      <input type="submit" value="Criar Conta" id="btn-registro" />
+      <Link to={'/perfil'} id="btn-registro" >
+        <input type="submit" value="Criar Conta" id="btn-registro" />
+      </Link>
     </div>
   )
 }
