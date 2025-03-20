@@ -1,13 +1,26 @@
+type propsCard={
+    titulo:string;
+    descricao:string;
+    img:string;
+    imgAlt: string;
+}
 
 
-
-function Card() {
+function Card(props:propsCard) {
     return(
         <>
             <div className="cards">
-                
+                <h1>{props.titulo}</h1>
+                <br />
+                {/* {props.img} */}
+                <img className="img-cards" src={props.img} alt={props.imgAlt}/>
+                <br />
+                {props.descricao}
+                <br /><br />
+                <button className="botao-cards" >Veja mais ...</button>
             </div>
         </>
     )
 }
 export default Card
+

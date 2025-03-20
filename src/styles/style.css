@@ -46,7 +46,10 @@ body {
 }
 
 .boas-vindas {
-    padding: 20px;
+    background-color: red;
+    height: 300px;
+    opacity: 75%;
+    /* padding: 20px;
     background-color: #F7F7F7;
     opacity: 75%;
     height: 100px;
@@ -55,7 +58,7 @@ body {
     border-radius: 50px;
     /* position: relative;
     top: 160px; */
-    font-weight: bold
+    /* font-weight: bold */
 }
 
 /* Menu */
@@ -239,12 +242,26 @@ box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 
 
 /*CARDS*/
 .cards{
-    background-color: #D9ED92;
+    background-color: #355796;
     width: 310px;
     height: 330px;
+    
 }
 .container-cards{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.botao-cards{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.img-cards{
+    width: 150px;
+    height: 100px;
 }
