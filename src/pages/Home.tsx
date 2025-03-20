@@ -1,3 +1,4 @@
+import Card from "../components/Cards"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 
@@ -10,7 +11,15 @@ function Home() {
                     Sua denúncia é fundamental para eliminar focos do mosquito e proteger a comunidade.
                     É rápido, fácil e pode salvar vidas!
                     Denunciar agora é um ato de cuidado e responsabilidade.
-                    Não espere! Denuncie já e faça a diferença!</div>
+                    Não espere! Denuncie já e faça a diferença!
+                </div>
+                <div className="container-cards">
+                    <Card/>
+                    <Card/>
+                    <div className="card-central"><Card/></div>
+                    <Card/>
+                    <Card/>
+                </div>
             </div>
             
             <Footer />
