@@ -46,19 +46,10 @@ body {
 }
 
 .boas-vindas {
-    background-color: red;
-    height: 300px;
-    opacity: 75%;
-    /* padding: 20px;
-    background-color: #F7F7F7;
-    opacity: 75%;
-    height: 100px;
-    width: 540px;
-    align-self: center;
-    border-radius: 50px;
-    /* position: relative;
-    top: 160px; */
-    /* font-weight: bold */
+    background-image: url('/src/assets/mosquito-home.png');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
 }
 
 /* Menu */
@@ -217,6 +208,20 @@ a:hover {
     width: 100%;
     height: 2rem;
     padding-left: 0.5rem;
+}
+
+/* Estilo específico para o campo nome */
+.registro>input[name="nome"] {
+    background-color: #ffffff;
+    border: 2px solid #184E77;
+    font-size: 1rem;
+    color: #184E77;
+}
+
+.registro>input[name="nome"]:focus {
+    outline: none;
+    border-color: #D9ED92;
+    box-shadow: 0 0 5px rgba(217, 237, 146, 0.5);
 }
 
 .registro>label {
